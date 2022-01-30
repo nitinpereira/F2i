@@ -1,0 +1,141 @@
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 35 35' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* .f2i-nav {
+    z-index: 999;
+    background: none !important;
+    border: 0 !important;
+}
+. f2i-carousel {
+    margin-top: -50px;
+} */
+
+.logo-glow {
+    width: 40%;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+}
+
+nav .dropdown li a {
+    color: #676767 !important;
+}
+
+.nav-item {
+    text-transform: uppercase !important;
+    color: #ffffff;
+}
+
+.dropdown-item {
+    text-transform: uppercase;
+    color: #676767 !important;
+}
+
+.dropdown-item:hover {
+    color: #006749 !important;
+}
+
+.carousel-caption {
+    text-align: left;
+    padding: 0 20px 130px 20px;
+}
+
+.carousel-caption, h1 {
+    text-transform: uppercase;
+}
+
+.bullet,ul,li {
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+/* Main */
+section {
+    padding: 40px 0 40px 0;
+}
+
+/* Put inside media queries */
+header {
+    font-size: 1.5em;
+    padding: 15px 0 30px 0;
+}
+
+aside {
+    background-color: #e4e6e7;
+    padding: 20px;
+    margin: 30px 0 30px 0;
+}
+
+/* Colors */
+.f2i-white {color: #ffffff;}
+.f2i-green {color: #006749;}
+.f2i-red {color: #ef3125;}
+.f2i-grey {color: #676767;}
+.f2i-yellow {color: #ffba00;}
+
+/* Background Colors */
+.f2i-white-bg {background-color: #ffffff;}
+.f2i-green-bg {background-color: #006749;}
+.f2i-red-bg {background-color: #ef3125;}
+.f2i-grey-bg {background-color: #676767}
+.f2i-yellow-bg {background-color: #ffba00;}
+
+.services,ul,li {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #ffba00;
+}
+
+footer {
+    background-color: #006749;
+    color: #fff;
+    padding: 25px 0 20px 0;
+    font-size: 0.85em;
+    line-height: 25px;
+}
+
+.comp-name {
+    line-height: 20px;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+
+.address {
+    padding: 0 0 0 40px;
+    line-height: 20px;
+}
+
+.my-space {
+    margin: 0 0 5px 0;
+}
+
+#go-left {
+    padding-left: 7px;
+}
+
+.detail-space {
+    padding-bottom: 15px;
+}
+
+.note {
+    padding: 10px 0 10px 0;
+    font-size: 0.80em;
+    text-align: center;
+}
