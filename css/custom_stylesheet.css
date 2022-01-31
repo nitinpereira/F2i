@@ -76,13 +76,6 @@ nav .dropdown li a {
     font-size: 0.95em;
 }
 
-/* Carousel */
-.item {
-    display: none;
-    position: relative;
-    .transition(.20s ease-in-out left);
-}
-
 /* Main */
 p {
     padding: 0 0 15px 0;
