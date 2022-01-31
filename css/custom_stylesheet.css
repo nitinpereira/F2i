@@ -1,5 +1,20 @@
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,p,a,header {
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+h2,h3,h4,h5,h6 {
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #006749;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -24,6 +39,8 @@ h1,h2,h3,h4,h5,h6 {
 
 nav .navbar-nav li a {
     color: white !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 
 nav .dropdown li a {
@@ -59,6 +76,9 @@ nav .dropdown li a {
 }
 
 /* Main */
+p {
+    padding: 0 0 15px 0;
+}
 section {
     padding: 40px 0 40px 0;
 }
@@ -67,6 +87,7 @@ section {
 header {
     font-size: 1.5em;
     padding: 15px 0 30px 0;
+    font-weight: 400;
 }
 
 aside {
@@ -101,6 +122,11 @@ aside {
     height: 50px;
     float: left;
     margin: 0 5px 0 0;
+}
+
+.high-lights {
+    background-color: #e4e6e7;
+    padding: 20px;
 }
 
 /* Colors */
