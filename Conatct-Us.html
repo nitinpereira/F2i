@@ -95,6 +95,7 @@
               </div>
             </div>
           </div>
+          <div id="map"></div>
     </div>
 
     <!-- Main -->
@@ -284,5 +285,17 @@
         }
       });
     </script>
+    
+    <!-- Google maps -->
+    <script>
+      function initMap() {
+        var loaction = {lat: 25.129388, lng: 56.327580};
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom:4,
+          center: loaction
+        });
+      }
+    </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
 </html>
